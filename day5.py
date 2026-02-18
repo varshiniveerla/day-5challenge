@@ -23,4 +23,24 @@ for i in request :
     else :
         high_demand = high_demand + [i]
         total_valid = total_valid + 1
+name = input("enter your name: ")
+name = name.replace(" ", "")
+L = len(name)
+PLI = L%3
+if PLI == 0:
+    removed = len(low_demand)
+    low_demand = []
+    rule = "A"
+
+elif PLI == 1:
+    removed = len(high_demand)
+    high_demand = []
+    rule = "B"
+
+else:
+    removed = len(low_demand) + len(high_demand)
+    low_demand = []
+    high_demand = []
+    rule = "C"
+
 
