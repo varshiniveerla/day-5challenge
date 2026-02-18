@@ -42,5 +42,15 @@ else:
     low_demand = []
     high_demand = []
     rule = "C"
+print("length of name", L)
+print("PLI = ",PLI," -> applying rule ",rule)
+print(low_demand)
+print(moderate_demand)
+print(high_demand)
+print(invalid_request)
+print("total valid requests : ",total_valid)
+print("removed requests : ",removed)
+    
+
 
 
