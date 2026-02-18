@@ -42,15 +42,26 @@ else:
     low_demand = []
     high_demand = []
     rule = "C"
-print("length of name", L)
-print("PLI = ",PLI," -> applying rule ",rule)
-print(low_demand)
-print(moderate_demand)
-print(high_demand)
-print(invalid_request)
-print("total valid requests : ",total_valid)
-print("removed requests : ",removed)
+reg = int(input("enter reg last digit : ")) 
+if reg %2 == 0 :
+    print("length of name", L)
+    print("PLI = ",PLI," -> applying rule ",PLI)
+    print(low_demand)
+    print(moderate_demand)
+   print(high_demand)
+   print(invalid_request)
+   print("total valid requests : ",total_valid)
+   print("removed requests : ",removed)
+else :
+    break
     
+    
+    
+    
+        
+    
+
+
 
 
 
